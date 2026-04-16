@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <br>
+    <br>
+    <br>
+    <div class="game-area">
+        <div class="options-area">
+            <button class="option" id="1" onclick="getResult(getPlayerChoice(event), getComputerChoice())">👊</button>
+            <button class="option" id="2" onclick="getResult(getPlayerChoice(event), getComputerChoice())">🖐️</button>
+            <button class="option" id="3" onclick="getResult(getPlayerChoice(event), getComputerChoice())">✌️</button>
+        </div>
+        <br>
+        <br>
+        <div class="result-area">
+            <div class="choices-area">
+                <div class="choice">
+                    <i>Your choice:</i>
+                    <p class="option" id="player-choice"></p>
+                </div>
+                <div class="choice">
+                    <i>Computer's choice:</i>
+                    <p class="option" id="computer-choice"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

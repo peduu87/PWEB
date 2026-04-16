@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.game-area {
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+
+.options-area {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.option:hover {
+    background-color: wheat;
+}
+
+.result-area {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.choices-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 30px;
+    border-radius: 15%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+}
