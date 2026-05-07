@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Bancário</title>
+</head>
+
+<body>
+    <h2>Sistema Bancário</h2>
+
+    <input type="text" id="name" placeholder="Nome do Correntista">
+    <input type="text" id="bank" placeholder="Banco">
+    <input type="number" id="number" placeholder="Número da Conta">
+    <input type="number" id="balance" placeholder="Saldo">
+
+    <input type="number" id="specialBalance" placeholder="Saldo Especial">
+
+    <input type="number" id="interest" placeholder="Juros">
+    <input type="date" id="dueDate">
+
+    <br><br>
+
+    <button onclick="createAccounts()">
+        Criar Contas
+    </button>
+
+    <h3>Conta Corrente</h3>
+    <p id="currentResult"></p>
+
+    <h3>Conta Poupança</h3>
+    <p id="savingsResult"></p>
+
+    <script src="scriptBank.js"></script>
+</body>
+
+</html>
